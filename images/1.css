@@ -1,0 +1,33 @@
+body {
+    font-family: segoe ui;
+}
+
+.container {
+    text-align: center;
+}
+
+.Hieuung {
+    width: 400px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.motkhoi h3 {
+    background-color: #3b9fcc;
+    color: white;
+    padding: 10px 12px;
+    margin: 0px;
+}
+
+.nd1khoi {
+    border: 1px solid #0000008f;
+    padding: 20px;
+    background-color: #ffffff69;
+}
+.motkhoi h3.xanh{
+    background-color: lightblue;
+}
+.motkhoi h3:hover{
+    background-color: lightblue;
+}
+

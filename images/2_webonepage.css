@@ -1,0 +1,72 @@
+ *{
+    margin:0;
+    padding:0;
+}
+.menutren{
+    width:100%;
+    position: fixed;
+    top:0px;
+    background-color:rgb(219, 219, 231);
+    margin:0 auto;
+}
+.menutren ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0;
+    width:100%;
+   
+ 
+}
+.menutren ul li {
+    list-style: none;
+}
+.menutren ul li a{
+    text-decoration: none;
+    padding:20px 30px;
+    display: inline-block;
+    color:white;
+    font-size:15px;
+    font-family: segoe ui;
+ 
+}
+.home{
+    width:100%;
+    height:900px;
+    background-image: url(images/10.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.noidung1 , .noidung2, .noidung3,.noidung4{
+    height:800px;
+    padding:50px 0;
+    color:gray;
+    text-align: center;
+}
+.chapter1, .chapter2, .chapter3, .chapter4{
+    height:900px;
+    background-image: url(images/8.png);
+    background-size: cover;
+}
+.chapter2{
+    background-image: url(images/9.png);
+}
+.chapter3{
+    background-image: url(images/15.jpg);
+}
+.chapter1 h2,.chapter2 h2,.chapter3 h2,.chapter4 h2{
+    font-size: 150px;
+    color:white;
+    font-family: tahoma;
+    padding-top:200px;
+    margin-left:200px;
+} 
+.nutlentren{
+    position: fixed;
+    right:10px;
+    bottom:5px;
+    padding:5px;
+    border-radius: 4px;
+    background-color: rgb(168, 168, 197);
+    cursor: pointer;
+}
